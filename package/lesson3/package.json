@@ -1,0 +1,36 @@
+{
+  "name": "ltsn",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-color": "^1.4.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.4.0",
+    "terminal-link": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4liang/ltsn.git"
+  },
+  "keywords": [
+    "Node",
+    "LTS"
+  ],
+  "author": "4liang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4liang/ltsn/issues"
+  },
+  "homepage": "https://github.com/4liang/ltsn#readme"
+}
